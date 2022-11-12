@@ -92,7 +92,7 @@ Set-Content -Path "$ProjectName\code\build.bat" -Value $build
 $main = @"
 #include <stdio.h>
 
-int main(char *ArgCount, char **Args)
+int main(int ArgCount, char **Args)
 {
     printf("Hello from $ProjectName!");
     return 0;
