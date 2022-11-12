@@ -10,4 +10,6 @@ The script requires a drive at `w:\` where it will install the script.
 
 ## One line installation
 
-`irm "https://github.com/nicogerber/projo/raw/main/setup.ps1" | iex`
+```
+irm "https://github.com/nicogerber/projo/raw/main/setup.ps1" | iex
+```
